@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.activity{
+display: flex;
+flex-direction: column;
+    height: 120vh;
+    width: 100%;
+    background-color:  #F9F9F9;;
+}
+.activityh1{
+margin-left: 80px;
+margin-top: 20px;
+font-size: 40px;
+    color:    #0A21F4;
+}
+.activity-upper{
+  margin-top: 20px;
+    height: 46vh;
+    width: 90vw;
+  
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+    .img1ac{
+    height: 350px;
+    width: 25vw;
+    gap: 3px;
+   display: flex;
+   flex-direction: column;
+   margin-left: 40px;
+    }
+
+    .school1acimg1{
+
+        width: 25vw;
+        height: 40px;
+    }
+    .school1acimg2{
+        object-fit: cover;
+        width: 30vw;
+        height: 400px;
+    }
+    .school1acimg3{
+       
+        width: 28vw;
+        height: 40px;
+        margin-left: 16px;
+    }
+    .school1acimg4{
+       margin-left: 16px;
+        width: 28vw;
+        height: 400px;
+        object-fit: cover;
+    }
+    /* .school1acimg5{
+
+        width: 25vw;
+        height: 40px;
+    } */
+    .school1acimg6{
+       object-fit: cover;
+        width: 28vw;
+        height: 440px;
+    }
+    .img2ac{
+    height: 100%;
+    width: 25vw;
+   
+    margin-left: 60px;
+    }
+    .img3ac{
+    height: 100%;
+    width: 25vw;
+    margin-left: 60px;
+    
+    }
+    .galleryh1{
+        margin-left: 100px;
+        margin-top: 130px;
+        font-size: 40px;
+            color:    #0A21F4;
+    }
+    .activity-lower{
+       margin-top: 20px;
+      
+        height: 45vh;
+        display: flex;
+        height: 50vh;
+        width: 100vw; 
+        justify-content: space-between;    
+        }
+
+  .gallery1img1{
+    height: 400px;
+    width: 28vw;
+    margin-left: 100px;
+    object-fit: cover;
+  }
+  .gallery1img2{
+    height: 400px;
+    width: 28vw;
+   margin-left: 20px;
+    object-fit: cover;
+  }
+  .gallery1img3{
+    height: 400px;
+    width: 28vw;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-right: 120px;
+  }

@@ -1,0 +1,106 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.star{
+
+    height: 150vh;
+    width: 100vw;
+    background-color:  #F9F9F9;;
+}
+
+.star-text{
+
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.starheight{
+
+    margin-top: 40px;
+    height: 128vh;
+    width: 100%;
+    background-color:  #EAF3FB;;
+}
+.starimg{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+   
+}
+.starimg1{
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+}
+.starimg2{
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+}
+.starimg3{
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+}
+.starimg4{
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+}
+.star-lower{
+    margin-top: 100px;
+
+}
+.left-star{
+width: 40vw;
+height: 50vh;
+
+    margin-top: 90px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.lefth1{
+
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.left-p{
+
+    width: 28.4vw;
+}
+.input-left{
+    margin-top: 40px;
+    height: 60px;
+    width: 30vw;
+    padding: 20px;
+    font-size: 16px;
+}
+.left-span{
+
+  color:  #004AAD;;
+}
+.subscribe{
+
+background-color: #004AAD;
+padding: 2px;
+height: 30px ;
+width: 100px;
+border-radius: 8px;
+margin-top: -46px;
+margin-left: 320px;
+color: #EAF3FB;
+outline: none;
+border: none;
+
+}
