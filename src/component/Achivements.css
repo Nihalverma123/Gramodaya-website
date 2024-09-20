@@ -1,213 +1,107 @@
-.achivements{
+
+.achivements {
     font-family: "Poppins", sans-serif;
     height: 110vh;
-   width: 100%;
+    width: 100%;
     background-color: #EAF3FB;
     margin-top: 40px;
     position: relative;
 }
-.heading-style{
 
+.heading-style {
     display: flex;
-    width:100%;
+    width: 100%;
     justify-content: center;
 }
-.achiveh1{
-    font-weight: 500;
-}
-.style-all-part{
 
+.style-all-part {
     display: flex;
     height: 120vh;
     width: 100%;
-    /* justify-content: space-between; */
 }
-.achive-left{
 
-    width: 400px;
-    height: 85vh;
-  
-    margin-left: 70px;
+.achive-left, .achive-middle, .achive-right {
+    width: 30%;
+    height: auto;
+    margin: 10px;
     flex-direction: column;
     display: flex;
-    row-gap: 20vh;
-    /* margin: 10px 40px 10px 70px; */
-
-   /* top, right, bottom, left */
-}
-.achive-middle{
-
-    width: 400px;
-    height: 70vh;
-  
-    flex-direction: column;
-    
-    display: flex;
-   
-   position: absolute;
-   align-items: center;
-   margin-bottom: 30px;
-   left: 534px;
-   top: 36px;
-
-}
-.middleheading{
-    color:  #0A21F4;
-    font-size: 45px;
-    font-weight: 500;
-}
-.paraachive1{
-
-    font-size: 30px;
-    font-weight: 500;
-   
+    row-gap: 20px;
 }
 
-
-.achive-right{
-    width: 29vw;
-    height: 85vh;
-    margin-right: 70px;
-  
-    flex-direction: column;
-    display: flex;
-    display: flex;
-    row-gap: 20vh;
-    position: absolute;
-    left: 1000px;
-
-    /* margin: 10px 40px 10px 70px; */
+.achiveimg1, .achiveimg2, .achiveimg3, .achiveimg4, .achiveimg5 {
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
 }
-.achiveimg1{
-    height: 300px;
-    width: 400px;
-    margin-left: 20px;
 
-}
-.achiveimg2{
-    height: 300px;
-    width: 400px;
-    margin-left: 20px;
+/* Styles for tablets */
+@media (max-width: 768px) {
 
-}
-.achiveimg3{
-    height: 300px;
-    width: 300px;
-margin-top: 110px;
-
-}
-.achiveimg4{
-    height: 300px;
-    width: 400px;
-margin-left: 20px;
-
-}
-.achiveimg5{
-    height: 300px;
-    width: 400px;
-    margin-left: 20px;
-
-}
- @media only screen and (min-width: 320px) and (max-width: 480px){
-
-    .achivements{
-       
-       
-        display: flex;
-        flex-direction: column;
+    .achivements {
+        font-family: "Poppins", sans-serif;
+        height: 110vh;
+        width: 100%;
+        /* background-color: #EAF3FB;
+        margin-top: 40px;
+        position: relative; */
     }
-    .heading-style{
 
-      
-       font-size: 12px;
+    .style-all-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achive-left, .achive-middle, .achive-right {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .achiveimg1, .achiveimg2, .achiveimg3, .achiveimg4, .achiveimg5 {
+        width: 100%;
+    }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+    .achivements {
+        height: auto;
+        margin-top: 20px;
+    }
+    .achivements {
+        font-family: "Poppins", sans-serif;
+        height: auto;
+        width: 100%;
+        /* background-color: #EAF3FB;
+        margin-top: 40px;
+        position: relative; */
     }
     .achiveh1{
-        font-weight: 500;
+
+        font-size: 20px;
     }
-    .style-all-part{
-    
-        display: flex;
-      
-       
+
+    .style-all-part {
         flex-direction: column;
-        /* justify-content: space-between; */
+        align-items: center;
+        height: auto;
     }
-    .achive-left{
-    
+
+    .achive-left, .achive-middle, .achive-right {
         width: 100%;
-     
-      
-       
-        /* flex-direction: column;
-        display: flex; */
-        
-        /* margin: 10px 40px 10px 70px; */
-    
-       /* top, right, bottom, left */
+        margin: 10px 0;
     }
-    .achive-middle{
-    
+
+    .achiveimg1, .achiveimg2, .achiveimg3, .achiveimg4, .achiveimg5 {
         width: 100%;
-       
-      
-     
-      
-      
-      
-    
+        height: auto;
     }
-    .middleheading{
-        color:  #0A21F4;
-        font-size: 20px;
-        font-weight: 500;
+
+    .middleheading {
+        font-size: 24px;
     }
-    .paraachive1{
-    
-        font-size: 20px;
-        font-weight: 500;
-       
-    }
-    
-    
-    .achive-right{
-        width: 100%;
-       
-       
-      
-       
-       
-       
-    
-        /* margin: 10px 40px 10px 70px; */
-    }
-    .achiveimg1{
-      
-        width: 100%;
-       
-    
-    }
-    .achiveimg2{
-      
-        width: 100%;
-     
-    
-    }
-    .achiveimg3{
-     
-        width: 100%;
-    
-    
-    }
-    .achiveimg4{
-       
-        width: 100%;
-    
-    
-    }
-    .achiveimg5{
-      
-        width: 100%;
-       
-    
+
+    .paraachive1 {
+        font-size: 18px;
     }
 }

@@ -1,4 +1,4 @@
-
+/* 
 
 *{
     margin: 0%;
@@ -103,4 +103,175 @@ color: #EAF3FB;
 outline: none;
 border: none;
 
+} */
+/* Base styles for larger screens */
+.star {
+    height: 150vh;
+    width: 100vw;
+    background-color: #F9F9F9;
+}
+
+.star-text {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.starheight {
+    margin-top: 40px;
+    height: 128vh;
+    width: 100%;
+    background-color: #EAF3FB;
+}
+
+.starimg {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.starimg1, .starimg2, .starimg3, .starimg4 {
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+.star-lower {
+    margin-top: 100px;
+}
+
+.left-star {
+    width: 40vw;
+    height: 50vh;
+    margin-top: 90px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lefth1 {
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.left-p {
+    width: 28.4vw;
+}
+
+.input-left {
+    margin-top: 40px;
+    height: 60px;
+    width: 30vw;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.left-span {
+    color: #004AAD;
+}
+
+.subscribe {
+    background-color: #004AAD;
+    padding: 2px;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    margin-top: -46px;
+    margin-left: 320px;
+    color: #EAF3FB;
+    outline: none;
+    border: none;
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+
+    .star{
+
+        display: none;
+    }
+    .star-text {
+        margin-top: 100px;
+    }
+
+    .starimg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .starimg1, .starimg2, .starimg3, .starimg4 {
+        width: 80%;
+        height: auto;
+    }
+
+    .left-star {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .lefth1 {
+        font-size: 30px;
+    }
+
+    .left-p {
+        width: 70%;
+    }
+
+    .input-left {
+        width: 70%;
+    }
+
+    .subscribe {
+        margin-left: 0;
+        width: 50%;
+    }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+    .star-text {
+        margin-top: 50px;
+    }
+
+    .starimg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .starimg1, .starimg2, .starimg3, .starimg4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-star {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .lefth1 {
+        font-size: 24px;
+    }
+
+    .left-p {
+        width: 90%;
+    }
+
+    .input-left {
+        width: 90%;
+    }
+
+    .subscribe {
+        margin-left: 0;
+        width: 70%;
+    }
+    .star{
+
+        display: none;
+    }
 }
